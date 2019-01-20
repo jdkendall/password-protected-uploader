@@ -1,7 +1,7 @@
 <?php
 $MAX_FILE_SIZE_IN_MB = 200;
 $CHECK_FILE_TYPES = true;
-$FILE_TYPES_ALLOWED = ["pdf", "jpg", "jpeg", "png", "gif", "bmp"];
+$FILE_TYPES_ALLOWED = array("pdf", "jpg", "jpeg", "png", "gif", "bmp");
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
